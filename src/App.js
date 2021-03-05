@@ -19,8 +19,10 @@ import Cart from './components/Cart/Cart'
 dotenv.config()
 
 const axiosDefaultHeader = {
-  cookie:
-    '__cfduid=dcd347b02bcc50c89e42c29e4a994e5391613329627; __cf_bm=023c6721868a22d5c5513539a3d408a0eb806000-1613411630-1800-AekJ2f5aDRV68O4WDMaxfItoNS1uS89rRUN%2BbxORuThnJQsngbHkBGYe2uEiuzhIkIEmgQ1Gz4XsyZTXL8MbP00%3D',
+  auth: {
+    username: process.env.REACT_APP_PRINTFUL_USER,
+    password: process.env.REACT_APP_PRINTFUL_PW,
+  },
   Authorization: process.env.REACT_APP_PRINTFUL_KEY,
   'Content-Type': 'application/json',
 }
