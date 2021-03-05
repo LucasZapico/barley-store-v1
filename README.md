@@ -1,7 +1,7 @@
 
 <p align="center">
   <a href="">
-    <img alt="Barley Water Logo" src="" width="60" />
+    <img alt="Barley Water Logo" src="https://github.com/LucasZapico/barley-store-v1/blob/master/public/barley-water-mark.png" width="60" />
   </a>
 </p>
 <h1 align="center">
