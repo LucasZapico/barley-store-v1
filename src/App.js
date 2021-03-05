@@ -31,7 +31,7 @@ const App = () => {
   const [products, setProducts] = useState([])
   const [cart, setCart] = useState({})
   const [order, setOrder] = useState({})
-
+  console.log('printful api', process.env.REACT_APP_API_URL)
   const fetchProducts = async () => {
     const {
       data,

@@ -9,7 +9,7 @@ Mock Barley Water Store
 </h1>
  
 
-Playing with creating an ecommerce experince with integration with the Printful API. Featuring product designs from the Barley Water Community. 
+Playing with creating an ecommerce experience with integration with the Printful API. Featuring product designs from the Barley Water Community. 
 
 ## Stack 
 
